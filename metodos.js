@@ -105,4 +105,7 @@ listaDeSuperMercado.forEach(function(item){
     //console.log(item);
 });
 
+let numeros = [-1, -9, -4, 0, 1, 3, 5, 7, 10 ,11];
+let numerosPositivos = numeros.filter( numero => numero > 0);
+
 
