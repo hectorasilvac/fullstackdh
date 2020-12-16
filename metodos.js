@@ -23,12 +23,18 @@ let horariosAtrasado = horariosPartida.map(function(horario){
 });
 //console.log(horariosAtrasado);
 
+
 //------------------------------------------------------------------------------------------------------------------------------------
 //sber notas aprobadas >=7
 let notasAprobadas = notas.filter(function(numero){
     return numero >= 7;
 });
 //console.log(notasAprobadas);
+let  notasDesaprobadas = notas.filter(function(numero){
+    return numero < 7;
+});
+console.log(notasDesaprobadas);
+
 let edades = [22,8,5,6,5];
 let mayoresDeEdad = edades.filter(function(edad){
     return edad >= 18;
@@ -62,6 +68,8 @@ let multiplicacion = notas.reduce(function(estado, valor){
     return estado * valor;
 });
 //console.log(multiplicacion);
+
+
 
 //Nos dejaron un array con las vueltas que dio una corredora entrenando en distintos momentos para una maratón.
 //Nuestro desafío será crear la variable totalVueltas y almacenar en ella el total, usando el método reduce.
@@ -104,5 +112,7 @@ let listaDeSuperMercado = [
 listaDeSuperMercado.forEach(function(item){
     //console.log(item);
 });
+
+
 
 
