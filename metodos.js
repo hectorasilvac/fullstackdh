@@ -2,10 +2,11 @@ let notas = [1,2,3,4,5];
 
 //hacer una operacion por cada uno de los elementos del array
 let notasHasta100 = notas.map(function(numero){
-    return numero * 10;
+    return numero * 30;
 });
 //map me devuelve un nuevo array donde cada valor fue multiplicado * 0
 //console.log(notasHasta100);
+
 let url = ["Lorena", "Pamela"];
 let urlCompleto = url.map(function(valor)
 {
